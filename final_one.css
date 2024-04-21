@@ -375,19 +375,19 @@ textarea {
     resize: vertical;
 }
 
-/*button{*/
-/*    background-color: #fed136;*/
-/*    color: #fff;*/
-/*    border: none;*/
-/*    padding: 25px 55px;*/
-/*    border-radius: 5px;*/
-/*    cursor: pointer;*/
-/*    transition: background-color 0.3s ease;*/
-/*    font-size:100%*/
-/*}*/
+button{
+    background-color: #fed136;
+    color: #fff;
+    border: none;
+    padding: 25px 55px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size:100%
+}
 
-/*button:hover {*/
-/*    background-color: #fed136;*/
-/*}*/
+button:hover {
+    background-color: #fed136;
+}
 
-/*contact us ends*/
+contact us ends
