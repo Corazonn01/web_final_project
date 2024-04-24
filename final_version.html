@@ -20,16 +20,14 @@
     </nav>
 </div>
 <div class="image-container">
-    <img id="main-image" src="https://bogatyr.club/uploads/posts/2023-03/thumbs/1679649314_bogatyr-club-p-krasivii-belii-fon-dlya-prezentatsii-pinte-9.png" alt="businees plan">
+    <img id="main-image" src="https://img.freepik.com/free-photo/3d-rendering-abstract-black-white-waves_23-2150853531.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1713052800&semt=ais" alt="businees plan">
     <div class="welcome-message">
         <i> Welcome To Our Studio!</i>
     </div>
     <div class="large-text">
         IT'S NICE TO MEET YOU
     </div>
-    <button>
-        TELL ME MORE
-    </button>
+    <button id="mainPageButton">TELL ME MORE</button>
 </div>
 
 
@@ -39,8 +37,8 @@
 
 <!--portfolio starts-->
 <header>
-    <h1>PORTFOLIO</h1>
-    <h3><em>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</em></h3>
+    <div class = 'portfolio'>PORTFOLIO</div>
+    <div class = 'lorem_portfolio'><em>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</em></div>
 </header>
 <div class="ui-container">
     <div class="ui-card">
@@ -103,6 +101,7 @@
     <h1>OUR AMAZING TEAM</h1>
     <p>Lorem ipsum dolor sit amet consectetur.</p>
     <div class="team-container">
+
         <div class="team-member">
             <div class="image-cropper">
                 <img src="Nastya.jpg" alt="Nastya" class="team-photo">
@@ -115,6 +114,7 @@
                 <a href="#" class="fa fa-twitter"></a>
             </div>
         </div>
+
         <div class="team-member">
             <div class="image-cropper">
                 <img src='Elina.jpg' alt="Elina" class="team-photo">
@@ -127,6 +127,7 @@
                 <a href="#" class="fa fa-twitter"></a>
             </div>
         </div>
+
         <div class="team-member">
             <div class="image-cropper">
                 <img src="Nazgul.jpg" alt="Zhumagalieva Nazgul" class="team-photo">
@@ -149,29 +150,22 @@
 <!--contact us starts -->
 <section id="contact">
     <div class="container">
-        <h2>CONTACT US</h2>
-        <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+        <div class = 'contact'>CONTACT US</div>
+        <div class = 'Lorem'>Lorem ipsum dolor sit amet consectetur.</div>
         <form action="#" method="post">
             <div class="form-group">
                 <input type="text" id="first_name" name="name" placeholder="Your Name*" required>
             </div>
-        </form>
-        <form action='#' method='post'>
             <div class="form-group">
-                <input type="text" id="email" name="email" placeholder="Your Email*" required>
+                <input type="email" id="email" name="email" placeholder="Your Email*" required>
             </div>
-        </form>
-
-        <div class="form-group">
-            <input type="text" id="phone" name="phone" placeholder="Your Phone*" required>
-        </div>
-    </div>
-    <div>
-        <div class="form-group">
-            <input type="text" id="name" name="message" placeholder="Your Message*" required>
-        </div>
-        </textarea>
-        <button type="submit">SEND MESSAGE</button>
+            <div class="form-group">
+                <input type="text" id="phone" name="phone" placeholder="Your Phone*" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Your Message*" required></textarea>
+            </div>
+            <button id="contactUsButton">SEND MESSAGE</button>
         </form>
     </div>
 </section>

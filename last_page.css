@@ -1,8 +1,9 @@
 #contact {
-    background-image: url(https://i.pinimg.com/564x/9c/33/9f/9c339f034c2c732a1252b8c4a4300ead.jpg);
-    padding: 50px 0;
-    background-color: #f9f9f9;
+background-image: url(https://i.pinimg.com/564x/9c/33/9f/9c339f034c2c732a1252b8c4a4300ead.jpg);
+padding: 50px 0;
+background-color: #f9f9f9;
 }
+
 
 .container {
     max-width: 600px;

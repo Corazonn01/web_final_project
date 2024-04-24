@@ -1,12 +1,11 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    last page
-
-    <link rel="stylesheet" href="last_page.css" >
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="last_page.css">
 </head>
 <body>
-
-
 
 <section id="contact">
     <div class="container">
@@ -16,25 +15,19 @@
             <div class="form-group">
                 <input type="text" id="first_name" name="name" placeholder="Your Name*" required>
             </div>
-        </form>
-        <form action='#' method='post'>
             <div class="form-group">
-                <input type="text" id="email" name="email" placeholder="Your Email*" required>
+                <input type="email" id="email" name="email" placeholder="Your Email*" required>
             </div>
-        </form>
-
-        <div class="form-group">
-            <input type="text" id="phone" name="phone" placeholder="Your Phone*" required>
-        </div>
-        </div>
-        <div>
             <div class="form-group">
-                <input type="text" id="name" name="message" placeholder="Your Message*" required>
+                <input type="text" id="phone" name="phone" placeholder="Your Phone*" required>
             </div>
-            </textarea>
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Your Message*" required></textarea>
+            </div>
             <button type="submit">SEND MESSAGE</button>
-            </form>
-        </div>
+        </form>
+    </div>
 </section>
+
 </body>
 </html>
